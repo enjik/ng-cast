@@ -4,7 +4,6 @@ angular.module('video-player')
     templateUrl: 'src/templates/search.html',
     
     bindings: {
-      onClick: '<',
-      input: '<'
+      result: '<',
     }
   });

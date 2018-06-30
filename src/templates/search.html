@@ -1,6 +1,6 @@
 <div class="search-bar form-inline">
-  <input ng-model="$ctrl.input" class="form-control" type="text" />
-  <button ng-click="$ctrl.onClick(input)" class="btn">
+  <input ng-model="$ctrl.input" ng-change="$ctrl.result($ctrl.input)" class="form-control" type="text" />
+  <button ng-click="$ctrl.result($ctrl.input)" class="btn">
     <span class="glyphicon glyphicon-search"></span>
   </button>
 </div>

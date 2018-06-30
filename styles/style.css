@@ -2,11 +2,14 @@
 
 body {
   background: #f1f1f1;
+  background-image: url('https://pbs.twimg.com/media/CimgoxUUYAEfkgl.jpg');
 }
 
 .navbar {
   background: #fff;
   margin-bottom: 20px;
+  background-image: url('https://yt3.ggpht.com/a-/ACSszfEDQjvCTcyH-t4YZhUUBZeL8drtRBF4JxJ9YQ=s900-mo-c-c0xffffffff-rj-k-no');
+  background-size: 5%;
 }
 
 .navbar img {
@@ -88,4 +91,8 @@ h5 {
   border: 2px solid red;
   text-align: center;
   padding: 10px;
+}
+
+.media-object {
+  background-size: 10%;
 }
