@@ -1,5 +1,10 @@
 angular.module('video-player')
 
-.component('search', {
-  // TODO
-});
+  .component('search', {
+    templateUrl: 'src/templates/search.html',
+    
+    bindings: {
+      onClick: '<',
+      input: '<'
+    }
+  });
